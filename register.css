@@ -1,0 +1,81 @@
+body{
+margin: 100px;
+text-align: center;
+align: center;
+}
+ 
+input[type=text],[type=password],[type=number]{
+width: 20%;
+margin: 8px 0;
+padding: 7px 10px;
+display: inline-block;
+border:1px solid #ccc;
+box-sizing: border-box;
+}
+
+ 
+button{
+background-color:grey;
+width: 10%;
+padding: 9px 5px;
+margin:5px 0;
+cursor:pointer;
+border:none;
+color:#ffffff;
+margin-left: 80px;
+}
+ 
+button:hover{
+opacity:0.8;
+}
+ 
+#fn,#ln,#un,#pwd,#em,#mn,#fm,#cy{
+font-family:'Times New Roman', Times, serif;
+color:black;
+
+}
+ 
+#em{
+margin-left:30px;
+}
+.container {
+    position: relative;
+  }
+  
+  .topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+  }
+  
+  img { 
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+  }
+#Register-box{
+		position: relative;
+		margin: 10% auto;
+		width: 650px;
+		height: 500px;
+		background: white;
+		border-radius: 10px;
+		box-shadow: 10 2px 4px rbg(0,0,0);
+		opacity:.7;
+	}
+	.left{
+		position:absolute;
+		top:10;
+		left:0;
+		box-sizing: border-box;
+		padding:40px;
+		width:300px;
+		height:400px;
+	}
+	td {
+		display: table-cell;
+		vertical-align: baseline;
+		padding: 0px !important;
+	}
+	

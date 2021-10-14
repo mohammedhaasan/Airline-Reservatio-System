@@ -1,0 +1,105 @@
+
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login
+  
+</title>
+
+<link rel="stylesheet" type="text/css" href="login.css">
+<link rel="stylesheet" href="style.css"><br>
+<tbody>
+	
+		<td>
+      
+		</td>
+		
+      
+      
+            
+    
+    
+      
+      
+
+
+
+
+</tbody>
+			
+<style>
+ 
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background-image:url("calm.jpg");
+  background-repeat: no repeat;
+  background-size: 100% 100%;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+</style>
+ 
+</head>
+ 
+<body>
+<div class="topnav">
+<a href="home.html">Home</a> &nbsp&nbsp
+<a href="Register.html">Registration</a> &nbsp&nbsp
+<a href="login.html">Login</a> &nbsp&nbsp
+
+<a href="booking.html">Booking</a> &nbsp&nbsp
+</div>
+ 
+<div id="container">
+<form action="login" method="post" id="flogin">
+ <div id="login-box">
+<div class="border-box">
+<h2>Login Form</h2>
+<label for="uname" id="un">Username:</label>
+<input type="text" name="user" placeholder="Enter Username" id="uname"><br/>
+ 
+<label for="upass" id="ps">Password:</label>
+<input type="password" name="pass" placeholder="Enter Password" id="upass"><br/>
+ 
+<button type="submit" value="Login"  id="submit" onClick="alert('Login Successfully')">Login</button>
+ 
+<a href="register.html">New Member</a>
+</div>
+ </div>
+</form>
+</div>
+<script>
+  function msg(){
+      alert("Thanks for Login");
+  }
+  </script>
+ 
+</body>
+</html>

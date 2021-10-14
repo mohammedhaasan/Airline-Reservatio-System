@@ -1,0 +1,78 @@
+
+<html>
+    <body>
+        <link rel="stylesheet" href="booking.css"><br>
+        <div class="topnav">
+            <a href="home.html">Home</a> &nbsp&nbsp
+            <a href="Register.html">Registration</a> &nbsp&nbsp
+            <a href="login.html">Login</a> &nbsp&nbsp
+            
+            <a href="booking.html">Booking</a> &nbsp&nbsp
+            </div>
+		<form>	
+    <table border=4 align= up>
+        
+    <tr><td>
+        
+    <table cellspacing=20>
+       
+    <tr><td colspan=3><h1>Booking Information</h1></td></tr>
+    <tr><td>From:</td><td colspan=2><input type="text">
+    <tr><td>To:</td><td colspan=2><input type="text">
+    <tr><td>Departure Date:</td><td colspan=2><input type="date">
+    <tr><td>Returning Date:</td><td colspan=2><input type="date">
+    <tr><td>Adults</td><td>Children</td>
+    <td rowspan=3>
+    <select>
+    <option value="Economy">Economy</option>
+    <option value="Executive">Executive</option>
+    <option value="First">First</option>
+    </select>
+    </td>
+    
+    </tr>
+    <tr><td>
+    <select>
+    <option value="one">1</option>
+    <option value="two">2</option>
+    <option value="three">3</option>
+    <option value="four">4</option>
+    <option value="five">5</option>
+    <option value="six">6</option>
+    <option value="seven">7</option>
+    <option value="eight">8</option>
+    <option value="nine">9</option>
+    </select>
+    </td>
+    <td>
+    <select>
+    <option value="zero">0</option>
+    <option value="one">1</option>
+    <option value="two">2</option>
+    <option value="three">3</option>
+    <option value="four">4</option>
+    <option value="five">5</option>
+    <option value="six">6</option>
+    <option value="seven">7</option>
+    <option value="eight">8</option>
+    <option value="nine">9</option>
+    </select>
+    </td>
+    </tr>
+    <tr><td colspan=2 align=center><input type="button"  value="Book Now" onclick="msg()">
+        
+    
+    </td></tr>
+    </table>
+    
+    </td></tr>
+    </table>
+</form>
+<script>
+    function msg(){
+        alert("Thanks for Booking");
+    }
+    </script>
+    </body>
+    </html>
+    

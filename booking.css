@@ -1,0 +1,59 @@
+body {
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    background-image:url("travel.jpg");
+    background-repeat: no repeat;
+    background-size: 100% 100%;
+    
+  }
+  
+  
+  .topnav {
+    overflow: hidden;
+    background-color: black;
+    opacity: 0.5;
+  }
+ 
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: navy;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  element.style {
+}
+user agent stylesheet
+body {
+    display:block;
+    margin: 10px;
+}
+table{
+  position: relative;
+		margin: 10% auto;
+		width: auto;
+		height: auto;
+		background: white;
+		border-radius: 5px;
+		box-shadow: 10 2px 4px rbg(0,0,0);
+		opacity:.8;
+	
+}
+
+td {
+    display: table-cell;
+    vertical-align: baseline;
+    padding: 0px !important;
+}
+
